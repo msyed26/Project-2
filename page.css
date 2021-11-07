@@ -7,18 +7,37 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+*{
+  color: black;
+  background-color: lightgrey;
+}
 html{
 font-family: "helvetica", helvetica , arial, sans-serif;
 font-size: 23px;
 line-height: 23px;
 }
-.container{
-  width: 900vw;
-  max-width: 100%;
-  padding: 25px;
-}
+
 #my-head{
-  width: 50vw;
+  /* width: 50vw;
   display: flex;
-  align-items: center;
-  flex-flow:column wrap-reverse;
+  ali
+  /* align-items: center;
+  flex-flow:column wrap-reverse; */
+  text-align: center;
+  display: grid;
+  font-size: 2em;
+  line-height: 3em;
+}
+
+footer{
+   /* width:50vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  bottom: 0;  */
+  text-align: center;
+  font-size: 1em;
+  bottom: 0;
+}

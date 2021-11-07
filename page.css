@@ -28,7 +28,21 @@ line-height: 23px;
   font-size: 2em;
   line-height: 3em;
 }
+#header{
+  padding-top: 20px;
+  text-align:center;
+  font-size: 1.1em;
+}
+#content{
+padding-left: 50px;
+padding-right: 20px;
+padding-bottom: 25px;
+padding-top: 20px;
 
+}
+#content-hobbies{
+  padding-left: 25px;
+}
 footer{
    /* width:50vw;
   display: flex;
@@ -40,4 +54,5 @@ footer{
   text-align: center;
   font-size: 1em;
   bottom: 0;
+
 }

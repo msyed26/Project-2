@@ -43,6 +43,14 @@ padding-top: 20px;
 #content-hobbies{
   padding-left: 25px;
 }
+img {
+  padding: 20px;
+  display: flex;
+  /* height: 720px;
+  width: 480px; */
+  min-width: 25vw;
+  max-width: 45%;
+}
 footer{
    /* width:50vw;
   display: flex;

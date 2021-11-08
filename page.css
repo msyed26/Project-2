@@ -50,7 +50,9 @@ padding-top: 20px;
 .toys img, figcaption {
   padding: 20px;
   display: flex;
-   flex-flow: row-reverse;
+  flex-flow: row-reverse;
+  justify-content: space-around;
+  align-items: center;
   min-width: 50vw;
   max-width: 75vw;
 }
@@ -63,7 +65,7 @@ footer{
   text-align: center;
   bottom: 0;  */
   text-align: center;
-  font-size: 1em;
+  font-size: .5em;
   bottom: 0;
   background-color: #555;
   color: white;

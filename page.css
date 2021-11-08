@@ -18,11 +18,6 @@ line-height: 23px;
 }
 
 #my-head{
-  /* width: 50vw;
-  display: flex;
-  ali
-  /* align-items: center;
-  flex-flow:column wrap-reverse; */
   text-align: center;
   display: grid;
   font-size: 2em;
@@ -32,8 +27,15 @@ line-height: 23px;
   padding-top: 3vw;
   text-align:center;
   font-size: 1.1em;
-  background-color: grey;
+  background-color: #555;
   color: white;
+}
+#my-nav{
+  font-family: Verdana, arial, helvetica, sans-serif;
+}
+#my-nav li {
+  background-color: grey;
+  text-decoration: none;
 }
 #content{
 padding-left: 50px;
@@ -45,14 +47,12 @@ padding-top: 20px;
 #content-hobbies{
   padding-left: 25px;
 }
-img {
+.toys img, figcaption {
   padding: 20px;
   display: flex;
-  flex-flow: column-reverse;
-  /* height: 720px;
-  width: 480px; */
-  min-width: 25vw;
-  max-width: 45%;
+   flex-flow: row-reverse;
+  min-width: 50vw;
+  max-width: 75vw;
 }
 footer{
    /* width:50vw;
@@ -65,7 +65,7 @@ footer{
   text-align: center;
   font-size: 1em;
   bottom: 0;
-  background-color: grey;
+  background-color: #555;
   color: white;
   padding-bottom: 3vw;
 }

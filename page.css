@@ -29,9 +29,11 @@ line-height: 23px;
   line-height: 3em;
 }
 #header{
-  padding-top: 20px;
+  padding-top: 3vw;
   text-align:center;
   font-size: 1.1em;
+  background-color: grey;
+  color: white;
 }
 #content{
 padding-left: 50px;
@@ -46,6 +48,7 @@ padding-top: 20px;
 img {
   padding: 20px;
   display: flex;
+  flex-flow: column-reverse;
   /* height: 720px;
   width: 480px; */
   min-width: 25vw;
@@ -62,5 +65,7 @@ footer{
   text-align: center;
   font-size: 1em;
   bottom: 0;
-
+  background-color: grey;
+  color: white;
+  padding-bottom: 3vw;
 }

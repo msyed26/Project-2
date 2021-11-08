@@ -30,12 +30,18 @@ line-height: 23px;
   background-color: #555;
   color: white;
 }
-#my-nav{
+#my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;
+  /* text-align: center; */
+  font-size: 1.2em;
+  line-height: 30px;
+  /* color: lightgrey; */
 }
-#my-nav li {
+#my-nav li, a {
   background-color: grey;
   text-decoration: none;
+
+
 }
 #content{
 padding-left: 50px;

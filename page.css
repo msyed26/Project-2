@@ -33,15 +33,18 @@ line-height: 23px;
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;
   /* text-align: center; */
-  font-size: 1.2em;
-  line-height: 30px;
-  /* color: lightgrey; */
+  font-size: 1em;
+  line-height: 35px;
+
 }
 #my-nav li, a {
   background-color: grey;
   text-decoration: none;
-
-
+  display: block;
+  text-align: center;
+}
+#my-nav a:hover, {
+  background-color: #777;
 }
 #content{
 padding-left: 50px;
@@ -76,4 +79,20 @@ footer{
   background-color: #555;
   color: white;
   padding-bottom: 3vw;
+}
+@media screen and (min-width: 400px) {
+  #my-nav ul{
+    display: flex;
+  }
+  #my-nav li {
+    flex: 1 0 auto;
+  }
+  .toys{
+  display: flex;
+  justify-content: space-around;
+  }
+  .toys img, .obj figcaption{
+    min-width: 35vw;
+    width: 35vw;
+}
 }

@@ -89,6 +89,8 @@ footer{
   }
   .toys{
   display: flex;
+  flex-flow: column-reverse;
+  flex-wrap: wrap;
   justify-content: space-around;
   }
   .toys img, .obj figcaption{

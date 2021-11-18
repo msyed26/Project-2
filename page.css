@@ -18,10 +18,13 @@ line-height: 25px;
 }
 
 #my-head{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   text-align: center;
   display: grid;
   font-size: 22px;
   line-height: 22px;
+  color: blue;
 }
 #header{
   padding-top: 3vw;
@@ -54,7 +57,13 @@ padding-top: 20px;
 
 }
 #content-hobbies{
+  padding-top: 3vw;
   padding-left: 25px;
+  text-align: center;
+}
+#resume-head{
+  padding-top: 3vw;
+  text-align: center;
 }
 .toys img, figcaption {
   padding: 20px;

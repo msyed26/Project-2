@@ -67,11 +67,12 @@ padding-top: 20px;
 }
 footer{
   text-align: center;
-  font-size: .5em;
+  font-size: 15px;
   bottom: 0;
   background-color: #555;
   color: white;
-  padding-bottom: 3vw;
+  padding-bottom: 1.5vw;
+  padding-top: 1.5vw;
 }
 @media screen and (min-width: 400px) {
   #my-nav ul{

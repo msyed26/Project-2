@@ -20,8 +20,8 @@ line-height: 23px;
 #my-head{
   text-align: center;
   display: grid;
-  font-size: 2em;
-  line-height: 3em;
+  font-size: 22px;
+  line-height: 22px;
 }
 #header{
   padding-top: 3vw;
@@ -33,7 +33,7 @@ line-height: 23px;
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;
   /* text-align: center; */
-  font-size: 1em;
+  font-size: 22px;
   line-height: 35px;
 
 }

@@ -49,6 +49,9 @@ line-height: 25px;
 #my-nav a:hover {
   background-color: #777;
 }
+#home{
+  text-align: center;
+}
 #content{
 padding-left: 50px;
 padding-right: 20px;

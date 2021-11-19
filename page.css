@@ -16,6 +16,15 @@ font-family: "verdana", helvetica , arial, sans-serif;
 font-size: 1.438em; /*23 / 16 = 1.438*/
 line-height: 1.563em; /*25 / 16 = 1.563*/
 }
+header{
+  text-align: center;
+  font-size: 0.938em;/*15 / 16 = 0.938*/
+  bottom: 0;
+  background-color: grey;
+  color: white;
+  padding-bottom: 1.250em; /*20 / 16 = 1.250*/
+  padding-top: 1.250em; /*20 / 16 = 1.250*/
+}
 h2{
   font-weight:bold;
 }

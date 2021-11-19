@@ -16,14 +16,16 @@ font-family: "verdana", helvetica , arial, sans-serif;
 font-size: 23px;
 line-height: 25px;
 }
-
+h2{
+  font-weight:bold;
+}
 #my-head, h1{
   background-color: #d2d9db ;
   padding-top: 3vw;
   padding-bottom: 3vw;
   text-align: center;
   display: grid;
-  font-size: 22px;
+  font-size: 54px;
   line-height: 22px;
 }
 /* #header{
@@ -38,8 +40,8 @@ line-height: 25px;
   /* text-align: center; */
   font-size: 22px;
   line-height: 35px;
-  padding-top: 1.5vw;
-  padding-bottom: 1.5vw
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
 
 
 }
@@ -58,24 +60,21 @@ line-height: 25px;
 }
 #content{
 text-align: center;
-padding-bottom: 3vw;
-padding-top: 3vw;
+padding-bottom: 3vh;
+padding-top: 3vh;
 
 }
 #content-hobbies{
-  padding-top: 3vw;
+  padding-top: 3vh;
   padding-left: 25px;
   text-align: center;
 }
 #resume-head{
-  padding-top: 3vw;
+  padding-top: 3vh;
   text-align: center;
 }
 .toys{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  justify-content: space-space-around;
+
 }
 .toys li {
   font-size: 18px;
@@ -117,8 +116,8 @@ footer{
   bottom: 0;
   background-color: grey;
   color: white;
-  padding-bottom: 1.5vw;
-  padding-top: 1.5vw;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
 }
 @media screen and (min-width: 400px) {
   #my-nav ul{
@@ -127,12 +126,12 @@ footer{
   #my-nav li {
     flex: 1 0 auto;
   }
-  /* .toys{
-  display: flex;
-  flex-flow: column-reverse;
-  flex-wrap: wrap;
-  align-items: center;
-  } */
+   .toys{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     justify-content: space-around;
+  }
 
   /* .toys img, .obj figcaption{
     min-width: 35vw;

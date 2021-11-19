@@ -34,13 +34,12 @@ footer{
 }
 /* Modular styles */
 #my-head, h1{
-  background-color: #d2d9db ;
-  padding-top: .5em; /*11 / 16 = .7*/
-  padding-bottom: .5em; /*11 / 16 = .7*/
+  padding-top: .345em; /*5 / 16 = .345*/
+  padding-bottom: .345em; /*5 / 16 = .345*/
   text-align: center;
   display: grid;
-  font-size: .9em; /*30 / 16 = 1.876*/
-  line-height: .9em; /*23 / 16 = 1.375*/
+  font-size: 1.248em; /*19 / 16 = 1.248*/
+  line-height: 1.547em; /*24 / 16 = 1.547*/
 }
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;

@@ -17,7 +17,7 @@ font-size: 23px;
 line-height: 25px;
 }
 
-#my-head{
+#my-head, h1{
   background-color: #d2d9db ;
   padding-top: 3vw;
   padding-bottom: 3vw;
@@ -71,11 +71,26 @@ padding-top: 3vw;
   padding-top: 3vw;
   text-align: center;
 }
-.toys {
+.toys{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-space-around;
+}
+.toys li {
+  font-size: 18px;
+  line height: 25px;
+  padding: 25px;
+  margin: 12px 0;
+  color: #eee;
   width: auto;
   margin-left: 0 auto 0;
 }
-.toys img, figcaption {
+.toys img {
+  max-width: 33vw;
+  min-width: 33vw;
+}
+/* .toys img, figcaption {
   display: flex;
   width: 280px;
   height: 280px;
@@ -95,7 +110,7 @@ padding-top: 3vw;
   align-items: center;
   min-width: 50vw;
   max-width: 75vw; */
-}
+
 footer{
   text-align: center;
   font-size: 15px;
@@ -112,15 +127,15 @@ footer{
   #my-nav li {
     flex: 1 0 auto;
   }
-  .toys{
+  /* .toys{
   display: flex;
   flex-flow: column-reverse;
   flex-wrap: wrap;
   align-items: center;
-  }
+  } */
 
-  .toys img, .obj figcaption{
+  /* .toys img, .obj figcaption{
     min-width: 35vw;
     width: 35vw;
-}
+} */
 }

@@ -6,7 +6,7 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
-/* Begin site styles below */
+/* Base styles */
 *{
   color: black;
   background-color: lightgrey;
@@ -20,13 +20,23 @@ h2{
   font-weight:bold;
 }
 article{
-  padding-left: 3vw;
-  padding-right: 3vw;
+  padding-left: 1.250em; /*20 / 16 = 1.250*/
+  padding-right: 1.250em; /*20 / 16 = 1.250*/
 }
+footer{
+  text-align: center;
+  font-size: 0.938em;/*15 / 16 = 0.938*/
+  bottom: 0;
+  background-color: grey;
+  color: white;
+  padding-bottom: 1.250em; /*20 / 16 = 1.250*/
+  padding-top: 1.250em; /*20 / 16 = 1.250*/
+}
+/* Modular styles */
 #my-head, h1{
   background-color: #d2d9db ;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding-top: .7em; /*11 / 16 = .7*/
+  padding-bottom: .7em; /*11 / 16 = .7*/
   text-align: center;
   display: grid;
   font-size: 1.876em; /*30 / 16 = 1.876*/
@@ -36,10 +46,8 @@ article{
   font-family: Verdana, arial, helvetica, sans-serif;
   font-size: 1.438em; /*23 / 16 = 1.438*/
   line-height: 2em; /*32 / 16 = 2*/
-  padding-top: 1.5vh;
-  padding-bottom: 1.5vh;
-
-
+  padding-top: 1.250em; /*20 / 16 = 1.250*/
+  padding-bottom: 1.250em; /*20 / 16 = 1.250*/
 }
 #my-nav li, a {
   background-color: grey;
@@ -51,31 +59,29 @@ article{
   background-color: #777;
 }
 #home{
-  padding-top: 3vw;
+  padding-top: 1.250em; /*20 / 16 = 1.250*/
   text-align: center;
 }
 #content{
 text-align: center;
-padding-bottom: 3vh;
-padding-top: 3vh;
-
+padding-bottom: 1.250em; /*20 / 16 = 1.250*/
+padding-top: 1.250em; /*20 / 16 = 1.250*/
 }
 #content-hobbies{
-  padding-top: 3vh;
-  padding-left: 25px;
+  padding: 1.250em; /*20 / 16 = 1.250*/
   text-align: center;
 }
 #resume-head{
-  padding: 3vh;
+  padding: 1.250em; /*20 / 16 = 1.250*/
   text-align: center;
   background-color: lightgrey;
 }
+/* Layout Styles */
 .toys{
-
 }
 .toys li{
   font-size: 1.125em; /*18 / 16 = 1.125*/
-  line height: 1.438em; /*23 / 16 = 1.438*/
+  line-height: 1.21em; /*17 / 16 = 1.121*/
   padding: 1.438em; /*23 / 16 = 1.438*/
   margin: 0.750em 0; /*12 / 16 = 0.750*/
   color: #eee;
@@ -83,19 +89,11 @@ padding-top: 3vh;
   margin-left: 0 auto 0;
 }
 .toys img {
-  max-width: 33vw;
-  min-width: 33vw;
+  min-width: 33vw; /*100 / 3 = 33*/
+  max-width: 33vw; /*100 / 3 = 33*/
 }
 
-footer{
-  text-align: center;
-  font-size: 0.938em;/*15 / 16 = 0.938*/
-  bottom: 0;
-  background-color: grey;
-  color: white;
-  padding-bottom: 1.5vh;
-  padding-top: 1.5vh;
-}
+/* State and Theme styles */
 @media screen and (min-width: 18.750em) { /*300 / 16 = 18.750*/
   #my-nav ul{
     display: flex;

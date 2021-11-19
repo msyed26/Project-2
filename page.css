@@ -16,15 +16,6 @@ font-family: "verdana", helvetica , arial, sans-serif;
 font-size: 1.438em; /*23 / 16 = 1.438*/
 line-height: 1.563em; /*25 / 16 = 1.563*/
 }
-header{
-  text-align: center;
-  font-size: 0.938em;/*15 / 16 = 0.938*/
-  bottom: 0;
-  background-color: grey;
-  color: white;
-  padding-bottom: 1.250em; /*20 / 16 = 1.250*/
-  padding-top: 1.250em; /*20 / 16 = 1.250*/
-}
 h2{
   font-weight:bold;
 }
@@ -44,12 +35,12 @@ footer{
 /* Modular styles */
 #my-head, h1{
   background-color: #d2d9db ;
-  padding-top: .7em; /*11 / 16 = .7*/
-  padding-bottom: .7em; /*11 / 16 = .7*/
+  padding-top: .5em; /*11 / 16 = .7*/
+  padding-bottom: .5em; /*11 / 16 = .7*/
   text-align: center;
   display: grid;
-  font-size: 1.876em; /*30 / 16 = 1.876*/
-  line-height: 1.375em; /*23 / 16 = 1.375*/
+  font-size: .9em; /*30 / 16 = 1.876*/
+  line-height: .9em; /*23 / 16 = 1.375*/
 }
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;

@@ -13,8 +13,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 html{
 font-family: "verdana", helvetica , arial, sans-serif;
-font-size: 23px;
-line-height: 25px;
+font-size: 1.438em; /*23 / 16 = 1.438*/
+line-height: 1.563em; /*25 / 16 = 1.563*/
 }
 h2{
   font-weight:bold;
@@ -25,12 +25,12 @@ h2{
   padding-bottom: 3vw;
   text-align: center;
   display: grid;
-  font-size: 54px;
-  line-height: 22px;
+  font-size: 3.375em; /*54 / 16 = 3.375*/
+  line-height: 1.375em; /*23 / 16 = 1.375*/
 }
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 1.438em; /*23 / 16 = 1.438*/
   line-height: 35px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
@@ -70,10 +70,10 @@ padding-top: 3vh;
 
 }
 .toys li{
-  font-size: 18px;
-  line height: 25px;
-  padding: 25px;
-  margin: 12px 0;
+  font-size: 1.125em; /*18 / 16 = 1.125*/
+  line height: 1.438em; /*23 / 16 = 1.438*/
+  padding: 1.438em; /*23 / 16 = 1.438*/
+  margin: 0.750em 0; /*12 / 16 = 0.750*/
   color: #eee;
   width: auto;
   margin-left: 0 auto 0;
@@ -85,14 +85,14 @@ padding-top: 3vh;
 
 footer{
   text-align: center;
-  font-size: 15px;
+  font-size: 0.938em;/*15 / 16 = 0.938*/
   bottom: 0;
   background-color: grey;
   color: white;
   padding-bottom: 1.5vh;
   padding-top: 1.5vh;
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) { /*23 / 16 = 1.438*/
   #my-nav ul{
     display: flex;
   }
@@ -106,7 +106,7 @@ footer{
      justify-content: space-around;
   }
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 450px) { /*23 / 16 = 1.438*/
   #my-nav ul{
     display: flex;
   }

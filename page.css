@@ -28,7 +28,6 @@ h2{
   font-size: 54px;
   line-height: 22px;
 }
-}
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;
   font-size: 22px;
@@ -70,7 +69,7 @@ padding-top: 3vh;
 .toys{
 
 }
-.toys li {
+.toys li{
   font-size: 18px;
   line height: 25px;
   padding: 25px;

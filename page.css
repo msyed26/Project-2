@@ -28,16 +28,9 @@ h2{
   font-size: 54px;
   line-height: 22px;
 }
-/* #header{
-  padding-top: 3vw;
-  text-align:center;
-  font-size: 15px;
-  background-color: #555;
-  color: white; */
 }
 #my-nav {
   font-family: Verdana, arial, helvetica, sans-serif;
-  /* text-align: center; */
   font-size: 22px;
   line-height: 35px;
   padding-top: 1.5vh;
@@ -70,7 +63,7 @@ padding-top: 3vh;
   text-align: center;
 }
 #resume-head{
-  padding-top: 3vh;
+  padding: 3vh;
   text-align: center;
   background-color: lightgrey;
 }
@@ -90,26 +83,6 @@ padding-top: 3vh;
   max-width: 33vw;
   min-width: 33vw;
 }
-/* .toys img, figcaption {
-  display: flex;
-  width: 280px;
-  height: 280px;
-  cursor: pointer;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-flow: row;
-  align-items: flex-start;
-
-  /* padding: 20px;
-  display: flex;
-  flex-flow: row-reverse;
-  justify-content: space-around;
-  align-items: center;
-  min-width: 50vw;
-  max-width: 75vw; */
 
 footer{
   text-align: center;
@@ -120,7 +93,7 @@ footer{
   padding-bottom: 1.5vh;
   padding-top: 1.5vh;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   #my-nav ul{
     display: flex;
   }
@@ -133,9 +106,18 @@ footer{
      justify-content: center;
      justify-content: space-around;
   }
-
-  /* .toys img, .obj figcaption{
-    min-width: 35vw;
-    width: 35vw;
-} */
+}
+@media screen and (min-width: 450px) {
+  #my-nav ul{
+    display: flex;
+  }
+  #my-nav li {
+    flex: 1 0 auto;
+  }
+   .toys{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     justify-content: space-around;
+  }
 }
